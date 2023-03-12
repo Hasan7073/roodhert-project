@@ -107,23 +107,27 @@ img{
 
 /*====Hero-section====*/
 .hero-area{
-background: url('../assets/images/banner.png');
+  background: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 /*====Header-section====*/
 .header-area{
-
+overflow: hidden;
+padding-bottom: 114px;
 }
 .container{
   max-width: 1081px;
   width: 100%;
   margin: auto;
 }
-.logo-area{
 
-}
 /*====logo-section====*/
 .logo-area{
-
+    float: left;
+    width: 20%;
+    overflow: hidden;
 }
 .logo-area a{
 
@@ -133,7 +137,9 @@ background: url('../assets/images/banner.png');
 }
 /*====nav-menu-section====*/
 .nav-menu{
-
+float: left;
+width: 60%;
+overflow: hidden;
 }
 
 .nav-menu ul{
@@ -149,7 +155,9 @@ background: url('../assets/images/banner.png');
 }
 /*====social-section====*/
 .social-area{
-
+float: left;
+    width: 20%;
+    overflow: hidden;
 }
 .social-area a{
 
