@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'prompt', sans-serif;
   font-weight: 400;
 }
 
@@ -111,11 +111,13 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  padding-bottom: 78px;
 }
 /*====Header-section====*/
 .header-area{
-overflow: hidden;
-padding-bottom: 114px;
+    overflow: hidden;
+    padding-bottom: 114px;
+    padding-top: 30px;
 }
 .container{
   max-width: 1081px;
@@ -132,8 +134,8 @@ padding-bottom: 114px;
 .logo-area a{
 
 }
-.logo-area img {
-
+.logo-area a img {
+width: 100px;
 }
 /*====nav-menu-section====*/
 .nav-menu{
@@ -143,27 +145,60 @@ overflow: hidden;
 }
 
 .nav-menu ul{
-
+text-align: center;
 }
 .nav-menu ul li{
-
+display: inline;
 }
 .nav-menu ul li a{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
 
-}
+text-align: center;
+letter-spacing: 0.5px;
 
+color: rgba(255, 255, 255, 0.75);
+    display: inline-block;
+    margin: 20px 10px;
 }
 /*====social-section====*/
 .social-area{
 float: left;
     width: 20%;
     overflow: hidden;
+    padding-top: 15px;
+}
+.social-butn{
+  background: #FF1616;
+    border-radius: 28px;
+    padding: 8px 11px;
+    display: inline-block;
 }
 .social-area a{
-
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0px 5px;
 }
 .social-area a img{
 
 }
+.social-area a img:hover{
+background: #FF1616;
+border-radius: 25px;
+}
 
 /*===Banner-section===*/
+.banner-area{
+
+}
