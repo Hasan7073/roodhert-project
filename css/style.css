@@ -105,14 +105,57 @@ img{
 
 /*====================*/
 
+/*====Hero-section====*/
+.hero-area{
 
+}
+/*====Header-section====*/
+.header-area{
 
+}
+.container{
+  max-width: 1081px;
+  width: 100%;
+  margin: auto;
+}
+.logo-area{
 
+}
+/*====logo-section====*/
+.logo-area{
 
+}
+.logo-area a{
 
+}
+.logo-area img {
 
+}
+/*====nav-menu-section====*/
+.nav-menu{
 
+}
 
+.nav-menu ul{
 
+}
+.nav-menu ul li{
 
+}
+.nav-menu ul li a{
 
+}
+
+}
+/*====social-section====*/
+.social-area{
+
+}
+.social-area a{
+
+}
+.social-area a img{
+
+}
+
+/*===Banner-section===*/
