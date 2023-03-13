@@ -261,9 +261,82 @@ font-family: 'Prompt';
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* display: flex; */
+   
     align-items: center;
     text-align: center;
     color: #FFFFFF;
     display: inline-block;
 }
+/*===services-section===*/
+.services{
+   overflow: hidden;
+    background: #120A0A;
+    padding-top: 50px;
+    padding-bottom: 247px;
+}
+.services-container{
+    max-width: 1169px;
+    width: 100%;
+    margin: auto;
+}
+.service-area-left{
+   float: left;
+    width: 33.33%;
+}
+.service-area-left p{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-bottom: 45px;
+}
+.service-area-middle{
+    float: left;
+    width: 33.33%;
+    padding-left: 163px;
+}
+
+.service-area-middle p{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-bottom: 22px;
+}
+.service-area-middle p span{
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+.service-area-right{
+ float: right;
+}
+.service-area-right p {
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-bottom: 27px;
+}
+
+
+
+
+
+
