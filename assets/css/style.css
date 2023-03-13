@@ -202,3 +202,64 @@ border-radius: 25px;
 .banner-area{
 
 }
+
+.text-area{
+     max-width: 712px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.text-area h1{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text-area p{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 173.5%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+
+.text-area a{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF1616;
+    border-radius: 28px;
+    display: inline;
+    padding: 16px 32px
+}
+.bel-voor{
+
+}
+.bel-voor p{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+}
