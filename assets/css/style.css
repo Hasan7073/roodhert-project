@@ -215,11 +215,15 @@ font-family: 'Prompt';
     font-weight: 700;
     font-size: 72px;
     line-height: 88px;
-    display: flex;
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.text-area h1 span{
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
 }
 .text-area p{
     font-family: 'Prompt';
