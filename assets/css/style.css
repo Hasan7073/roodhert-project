@@ -425,7 +425,7 @@ font-family: 'Prompt';
 
 .contact-section{
 overflow: hidden;
-    background: #545353;
+    background: #120A0A;
     padding-top: 112px;
     padding-bottom: 125px;
 }
@@ -457,24 +457,41 @@ font-family: 'Prompt';
     margin: auto;
     overflow: hidden;
 }
-.info-contant{
+.info-contant{  
+ float: left;
+    width: 50%;
+    background: #1B1414;
+    margin-top: 59px;
 
 }
 .info-contant a{
 
 }
 .info-contant a img{
-
+padding-top: 40px;
+    padding-bottom: 25px;
 }
 .info-contant p{
-
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 39px;
 }
 .contact-social{
-
+max-width: 533px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 43px;
 }
 
 .contact-social-contant{
-
+float: left;
+    width: 50%;
 }
 .contact-social-contant a{
 
