@@ -335,6 +335,157 @@ font-family: 'Prompt';
     padding-bottom: 27px;
 }
 
+/*===spacial-services-section===*/
+.spacial-services{
+overflow: hidden;
+    background: #1B1414;
+    padding-top: 113px;
+    padding-bottom: 102px;
+}
+
+.spacial-container{
+    max-width: 772px;
+    width: 100%;
+    margin: auto;
+}
+}
+.spacial-text-area{
+
+}
+.spacial-text-area p{
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #FF1616;
+    padding-bottom: 15px;
+}
+.spacial-text-area h1{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 131.7%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 65px;
+}
+.spacial-contant-area{
+    max-width: 644px;
+    width: 100%;
+    margin: auto;
+}
+.spacial-area{
+    float: left;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.icon-contant{
+    padding-bottom: 32px;
+}
+.icon-contant img{
+width: 40px;
+    height: 40px;
+    border: 2px solid #857e7e;
+    padding: 10px;
+    border-radius: 50px 50px;
+}
+.text-contant{
+
+}
+.text-contant h1{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.text-contant p{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 173.5%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+/*===contact-section===*/
+
+
+.contact-section{
+overflow: hidden;
+    background: #545353;
+    padding-top: 112px;
+    padding-bottom: 125px;
+}
+.contact-container{
+max-width: 1130px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.contact-area{
+
+}
+.contact-area h1{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 73px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.contact-contant-area{
+   max-width: 533px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.info-contant{
+
+}
+.info-contant a{
+
+}
+.info-contant a img{
+
+}
+.info-contant p{
+
+}
+.contact-social{
+
+}
+
+.contact-social-contant{
+
+}
+.contact-social-contant a{
+
+}
+
+.contact-social-contant a img{
+
+}
+
+
+
 
 
 
