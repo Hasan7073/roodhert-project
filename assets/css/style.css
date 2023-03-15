@@ -444,11 +444,10 @@ font-family: 'Prompt';
     font-weight: 600;
     font-size: 48px;
     line-height: 73px;
-    /* display: flex; */
-    /* align-items: center; */
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
+    padding-bottom: 59px;
 }
 
 .contact-contant-area{
@@ -458,11 +457,25 @@ font-family: 'Prompt';
     overflow: hidden;
 }
 .info-contant{  
- float: left;
-    width: 50%;
-    background: #1B1414;
-    margin-top: 59px;
+     float: left;
+    width: 42%;
+    background: #f00;
+    margin: 4%;
+    position: relative;
+    z-index: 1;
+    border-radius: 28px;
 
+}
+.info-contant::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #555;
+    border-radius: 28px;
+    left: 0;
+    z-index: -1;
+    bottom: -6px;
 }
 .info-contant a{
 
@@ -490,16 +503,109 @@ max-width: 533px;
 }
 
 .contact-social-contant{
-float: left;
-    width: 50%;
+    float: left;
+    width: 46%;
+    margin: 10px;
 }
 .contact-social-contant a{
-
+float: left;
 }
 
 .contact-social-contant a img{
 
 }
+.contact-social-contant p{
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4267B2;
+}
+
+.contact-social-contant p span{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+
+
+/*===footer-section===*/
+.footer-acrea{
+    overflow: hidden;
+    background: #201818;
+}
+.footer-container{
+    max-width: 1268px;
+    width: 100%;
+    margin: auto;
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+.footer-logo-section{
+float: left;
+width: 30%;
+}
+.footer-logo-section a{
+
+}
+.footer-logo-section a img{
+width: 100px;
+padding-bottom: 28px;
+}
+.footer-logo-section p{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+opacity: 0.7;
+padding-bottom: 110px;
+}
+
+.footer-service{
+    float: left;
+    width: 17.5%;
+}
+
+.footer-service h4{
+font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.footer-service ul{
+
+}
+footer-service ul li{
+
+}
+.footer-service ul li a{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #B9B7B7;
+    padding-bottom: 16px;
+}
+
+
+
+
+
+
 
 
 
