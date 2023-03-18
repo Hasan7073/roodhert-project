@@ -540,7 +540,7 @@ color: #FFFFFF;
     background: #201818;
 }
 .footer-container{
-    max-width: 1348px;
+    max-width: 1274px;
     width: 100%;
     margin: auto;
     padding-top: 86px;
@@ -563,7 +563,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 150%;
+
 color: #FFFFFF;
+
 opacity: 0.7;
 padding-bottom: 110px;
 }
@@ -580,23 +582,22 @@ font-family: 'Prompt';
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
+    text-align: center;
     padding-bottom: 32px;
 }
 
 .footer-service ul{
-
+    text-align: center;
 }
 footer-service ul li{
 
 }
 .footer-service ul li a{
-    font-family: 'Prompt';
+     font-family: 'Prompt';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 40px;
     color: #B9B7B7;
     padding-bottom: 16px;
 }
